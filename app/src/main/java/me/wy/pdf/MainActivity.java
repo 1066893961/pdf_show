@@ -24,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
         initView();
 
         //加载本地文件
-        preView("file:///android_asset/demo.pdf");
+//        preView("file:///android_asset/demo.pdf");
         //加载允许跨域访问的文件
 //        preView("http://p5grppofr.bkt.clouddn.com/pdf-js-demo.pdf");
         //跨域加载文件 先将pdf下载到本地在加载
-//        download("http://p5grppofr.bkt.clouddn.com/pdf-js-demo.pdf");
+//        download("http://dsc.huijinchain.com/oss/goldchain/3e9aac273eb743f6944a06ec4af963e1.pdf");
+        download("http://dsc.huijinchain.com/oss/goldchain/367265d435914aafa13a2402f4623c14.pdf");
     }
 
     @SuppressLint("SetJavaScriptEnabled")
